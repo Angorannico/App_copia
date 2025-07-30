@@ -43,7 +43,7 @@ export default function FavoritesScreen({ navigation }: Props ) {
   const [editingAddressId, setEditingAddressId] = useState<string | null>(null);
   const [editingAddressLabel, setEditingAddressLabel] = useState<string>("");
 
-  const GOOGLE_MAPS_APIKEY_PROD = "AIzaSyCSVNAzcal6oqDoX65qVmTIXUR8IFYWaYE"; // Reemplaza con tu clave API de Google Maps
+  #const GOOGLE_MAPS_APIKEY_PROD = "AIzaSyCSVNAzcal6oqDoX65qVmTIXUR8IFYWaYE"; // Reemplaza con tu clave API de Google Maps
 
   const dispatch = useDispatch();
 
